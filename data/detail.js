@@ -5,7 +5,6 @@
    * res.cookie('name','value', {}) 设置cookie
    * req.session.user = null 设置/删除session
    */
-  console.log(req.cookies.name)
   return mock.mock({
     code: 200,
     result: {
